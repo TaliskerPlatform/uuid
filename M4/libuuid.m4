@@ -36,6 +36,9 @@ AC_DEFUN([_BT_CHECK_LIBUUID],[
 		true
 		$2
 	fi
+	AC_SUBST([LIBUUID_CPPFLAGS])
+	AC_SUBST([LIBUUID_LDFLAGS])
+	AC_SUBST([LIBUUID_LIBS])
 ])dnl
 dnl
 dnl - BT_CHECK_LIBUUID([action-if-found],[action-if-not-found])
